@@ -1,0 +1,33 @@
+# Core API
+fastapi==0.116.1
+uvicorn==0.35.0
+starlette==0.47.2
+
+# Database & Auth
+sqlalchemy==2.0.42
+passlib[bcrypt]==1.7.4
+python-jose[cryptography]==3.5.0
+pydantic==2.11.7
+python-multipart==0.0.20
+bcrypt==4.0.1
+
+
+# ML/NLP (PyTorch only)
+torch==2.0.1
+transformers==4.33.2
+tokenizers==0.13.3
+tqdm==4.67.1
+
+# Audio
+torchaudio
+librosa
+soundfile
+
+# Vision (no TensorFlow)
+opencv-python-headless==4.8.0.74
+deepface==0.0.95
+Pillow==11.0.0
+
+# Data utils
+numpy==1.26.4
+pandas==2.3.1
